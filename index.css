@@ -1,0 +1,26 @@
+:root{
+    text-align: center;
+    color: white;
+}
+
+#title{
+    text-align: center;
+}
+
+.one {
+    width: 90%;
+    height: 300px;
+    /* border: 15px solid green; */
+    padding: 20px;
+    margin: auto;
+    background: cyan;
+}
+
+.two{
+    width: 90%;
+    height: 90%;
+    /* border: 15px solid green; */
+    background: red;
+    margin: auto;
+    padding: 10px;
+}
