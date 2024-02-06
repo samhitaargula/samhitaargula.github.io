@@ -5,6 +5,9 @@
 
 #title{
     text-align: center;
+    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;*/
+    font-family: 'Droid serif', serif; font-size: 40px; font-weight: 400; font-style: italic; line-height: 44px;
 }
 
 .one {
@@ -13,14 +16,32 @@
     /* border: 15px solid green; */
     padding: 20px;
     margin: auto;
-    background: cyan;
+    background: #80ced6; #e06377;
 }
 
 .two{
     width: 90%;
     height: 90%;
     /* border: 15px solid green; */
-    background: red;
+    background: #ff6f69; /*#eeac99; */
     margin: auto;
     padding: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+p{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 1.1em;
+    /* 17px; */
+}
+
+a {
+    color: #034f84;
+}
+
+.highlight{
+  /* position:relative;
+  margin:0.1em;
+  background-color: #78ffd6cc;*/
 }
