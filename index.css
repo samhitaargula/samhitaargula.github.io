@@ -12,6 +12,10 @@
     color: white;
 }
 
+#index{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .one {
     width: 90%;
     height: 300px;
