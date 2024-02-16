@@ -1,13 +1,15 @@
 :root{
     text-align: center;
-    color: white;
 }
 
 #title{
     text-align: center;
-    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;*/
+    color: white;
     font-family: 'Droid serif', serif; font-size: 40px; font-weight: 400; font-style: italic; line-height: 44px;
+}
+
+.alt {
+    color: white;
 }
 
 .one {
