@@ -3,7 +3,8 @@ body {
 }
 
 div.transbox {
-    background-color: #fff;
+    background-color: #a0cba0; 
+    /* #a6c9a6; */
     /* opacity: 0.95; */
     border-radius: 25px;
 }
@@ -29,6 +30,7 @@ p, h1{
 #error{
     text-align: center;
     color: red;
+    font-weight: 500;
 }
 
 label{
