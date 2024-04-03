@@ -14,11 +14,17 @@ function calculateTip(){
     document.getElementById("tip_percentage").value = `${tipPercent}%`;
 
     let bill1 = document.querySelector("#bill");
-    if(isNaN(bill1.value) || bill1.value=='' || bill1.value<0)
+    if(bill1.value == ''){
+        error.innerText = "";
+        document.getElementById("tip_amount").value = `\$ 0`;
+        document.getElementById("bill_with_tip").value = `\$ 0`;
+        return;
+    }
+    if(isNaN(bill1.value) || bill1.value<0)
     {
         error.innerText = "Enter valid bill amount!";
-        document.getElementById("tip_amount").value = "";
-        document.getElementById("bill_with_tip").value = "";
+        document.getElementById("tip_amount").value = `\$ 0`;
+        document.getElementById("bill_with_tip").value = `\$ 0`;
         return;
     }
 
