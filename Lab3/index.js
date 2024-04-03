@@ -2,7 +2,7 @@ const slider = document.querySelector("input[type='range']");
 slider.addEventListener("input", calculateTip);
 
 const billInput = document.getElementById("bill");
-billInput.addEventListener("change", calculateTip);
+billInput.addEventListener("input", calculateTip);
 
 const error = document.getElementById("error");
 
